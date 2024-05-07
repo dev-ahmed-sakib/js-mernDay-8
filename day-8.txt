@@ -1,0 +1,16 @@
+//--- LocalStorage ---//
+setItem
+getItem
+removeItem
+
+//--- Session Storage ---//
+setItem
+getItem
+removeItem
+
+//--- Cookies memories ---//
+store data
+cookie memory expires time add
+
+//--- Error handling ---//
+try catch ()
