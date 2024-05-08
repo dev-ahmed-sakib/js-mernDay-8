@@ -14,3 +14,5 @@ cookie memory expires time add
 
 //--- Error handling ---//
 try catch ()
+getAge() using fanction get error
+handle the error with age conditions if/else
