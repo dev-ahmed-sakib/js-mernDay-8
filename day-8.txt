@@ -26,14 +26,10 @@ Case sensitive
 start to end complete matching
 any character / multiple any character using dot
 any character same matching using [ ]
-small latter & capital latter & 0-9 any character using 
-
-[ ]
+small latter & capital latter & 0-9 any character using [ ]
 set all character using by []
 100 any character end
-start 100 any character & set limited number of 
-
-character last end
+start 100 any character & set limited number of character last end
 phone number matching start country code 
 phone number matching start country code with full 
 

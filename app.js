@@ -1,9 +1,17 @@
 // --- regular expresstion --- //
-const matching = "B@ngladesh";
+const matching = "perfect_sakiib@yahoo.com";
 
-const pattern = /^B.ngladesh$/;
+const pattern = /^[a-z0-9._]{1,20}@[a-z]{2,10}\.[a-z]{2,8}$/;
 
 console.log(pattern.test(matching))
+
+
+// phone number matching // 
+// const matching = "01785746146";
+
+// const pattern = /^(0|\+880|880)[0-9]{10}$/;
+
+// console.log(pattern.test(matching))
 
 
 
