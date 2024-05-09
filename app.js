@@ -1,14 +1,42 @@
-const age = 15;
+// --- regular expresstion --- //
+const matching = "B@ngladesh";
 
-try{
-    if(age >= 19){
-        console.log("Your age is  okay")
-    }else{
-        throw new Error("age is undefined")
-    }
-}catch(error){
-    console.log(error.message)
-}
+const pattern = /^B.ngladesh$/;
+
+console.log(pattern.test(matching))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const age = 15;
+
+// try{
+//     if(age >= 19){
+//         console.log("Your age is  okay")
+//     }else{
+//         throw new Error("age is undefined")
+//     }
+// }catch(error){
+//     console.log(error.message)
+// }
 
 
 
